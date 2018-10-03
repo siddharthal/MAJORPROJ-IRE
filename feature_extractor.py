@@ -31,7 +31,7 @@ if __name__ == '__main__':
     elif essay_set_id == 8:
         min_score, max_score = 0, 60
     score_range = range(int(min_score),int(max_score+1))
-    word_idx = build_vocab(essay_list, 2500)
+    word_idx = build_vocab(essay_list, 4000)
     print(word_idx)
 
 
