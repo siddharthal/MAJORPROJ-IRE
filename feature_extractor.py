@@ -40,12 +40,12 @@ def score_range(self):
     score = float(score)
     return (score - lo) / (hi - lo)
 
-def convertword2vec(dim=100):
+def convertword2vec(dim=300):
     word2vec = []
     word_idx = {}
     word2vec.append([0]*dim)
     count = 1
-    with open('glove.6B.100d.txt') as f:
+    with open('glove.6B.300d.txt') as f:
         for line in f:
             l = line.split()
             word = l[0]
