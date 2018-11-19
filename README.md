@@ -3,8 +3,8 @@ Implementation of the paper - SKIP FLOW : Incorporating Neural Coherence Feature
 The paper can be found here - https://arxiv.org/pdf/1711.04981.pdf
 
 Team Members:
-Sharon Varghese
 Siddhartha Laghuvarapu
+Sharon Varghese
 Prateek Alat
 Vineet Hariharan
 
